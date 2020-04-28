@@ -1,0 +1,10 @@
+trước khi làm : git pull origin master
+1. git fetch
+2. git checkout master
+3. git checkout -b feature/chuc-nang-moi
+4. a code
+5. sau do anh push code lên git push origin feature/chuc-nang-moi
+gitlab
+
+docker build -t laravel_ban_chuoi .
+docker-compose up -d --build
