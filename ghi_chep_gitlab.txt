@@ -8,3 +8,11 @@ gitlab
 
 docker build -t laravel_ban_chuoi .
 docker-compose up -d --build
+
+
+
+1. git checkout master : dùng để chuyển về branch master sau đó mới được merge
+2. git pull origin master: để lấy code master mới nhất (lý do lỡ em có code và merge vào master rồi, thì master bên anh đang là bản cũ => phải pull code)
+3. git merge name-feature
+4. Fix confilict nếu có
+5. git push origin master
